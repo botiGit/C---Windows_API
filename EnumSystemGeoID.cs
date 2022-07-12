@@ -3,7 +3,8 @@ using System.Runtime.InteropServices;
 
 
 
-//Código que a través de callback (lin. 25 y 41), no directamente, ejecute el shellcode que le introduzcamos en el array de bytes (ahora vacío claro)
+//Código que a través del callback que ofrece enumsystemgeoID (lin. 26 y 42), no directamente, ejecute el shellcode que le introduzcamos en el array
+//de bytes (ahora vacío claro)
 
 
 namespace CallBackShellcode
