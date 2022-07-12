@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 
 
-//Código que a través de callback (lin. 25), no directamente, enumerates the geographical location identifiers (type GEOID) that are available on the operating system.
+//Código que a través de callback (lin. 25 y 41), no directamente, ejecute el shellcode que le introduzcamos en el array de bytes (ahora vacío claro)
 
 
 namespace CallBackShellcode
