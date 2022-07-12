@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 
 //Código que a través del callback que ofrece enumsystemgeoID (lin. 26 y 42), no directamente, ejecute el shellcode que le introduzcamos en el array
-//de bytes (ahora vacío claro)
+//de bytes (ahora vacío claro). Ejemplo de msfvenom: msfvenom -a x64 -p windows/x64/messagebox Test="Hello!!" -f csharp
 
 
 namespace CallBackShellcode
