@@ -9,7 +9,7 @@ using System.Net.Sockets;
 using System.IO;
 
 
-//Ejecutar en máquina victima. Lo suyo es utilizar este código para ya sea inyectarlo en un DLL, macro o algo así. Esto tal cual en .cs es "irreal" en un caso real
+//Ejecutar en máquina victima. Lo suyo es utilizar este código para ya sea inyectarlo en un DLL, macro o algo así. Esto tal cual en .cs es muy irreal.
 //
 
 
