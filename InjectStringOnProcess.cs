@@ -64,7 +64,7 @@ public class Program
         IntPtr procHandle = OpenProcess(PROCESS_CREATE_THREAD | PROCESS_QUERY_INFORMATION | PROCESS_VM_OPERATION | PROCESS_VM_WRITE | PROCESS_VM_READ, false, proc1.Id);
         Console.WriteLine("Got procHandle: " + procHandle);
 
-        string blob = "MASTERBLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLASTER";
+        string blob = "ola";
 
         Console.WriteLine("Allocating memory in " + proc1.MainModule.FileName);
         IntPtr memAddr = VirtualAllocEx(procHandle, IntPtr.Zero, (uint)((blob.Length + 1) * Marshal.SizeOf(typeof(char))), MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
